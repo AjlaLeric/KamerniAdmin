@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8CA8441BB79029687C9160 /* Pods_Kamerni_teatar_55.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47A7BD38746A868933B226 /* Pods_Kamerni_teatar_55.framework */; };
+		8C089730207B947300C65503 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08972F207B947300C65503 /* AboutUsViewController.swift */; };
+		8C089734207BA24F00C65503 /* AnsamblViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C089733207BA24F00C65503 /* AnsamblViewController.swift */; };
+		8C089736207BA31A00C65503 /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C089735207BA31A00C65503 /* ShowsViewController.swift */; };
+		8C089738207BA3B100C65503 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C089737207BA3B100C65503 /* EventsViewController.swift */; };
+		8C4905C6208754DC00973768 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C4905C5208754DC00973768 /* logo.jpg */; };
+		8C5D8EA6208E0CEE0050E1E9 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D8EA5208E0CEE0050E1E9 /* VerifyViewController.swift */; };
+		8C5DEF3320A1E6FD00B616F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DEF3220A1E6FD00B616F1 /* TableViewCell.swift */; };
+		8C7361902089CFC3007EF922 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C73618F2089CFC3007EF922 /* BaseViewController.swift */; };
+		8C7CEEAF207CEFA7000ECCF6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CEEAE207CEFA7000ECCF6 /* CollectionViewCell.swift */; };
+		8C7CEEB5207CFFE2000ECCF6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CEEB4207CFFE2000ECCF6 /* CustomTableViewCell.swift */; };
+		8C81D58E20A1C7C500B34DA8 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81D58D20A1C7C500B34DA8 /* Storage.swift */; };
+		8C877C9620873024009C61CE /* ActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877C9520873024009C61CE /* ActorViewController.swift */; };
+		8C877C98208739CF009C61CE /* PartnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877C97208739CF009C61CE /* PartnersViewController.swift */; };
+		8C877F0E207B672200036CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877F0D207B672200036CCF /* AppDelegate.swift */; };
+		8C877F10207B672200036CCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877F0F207B672200036CCF /* ViewController.swift */; };
+		8C877F13207B672200036CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C877F11207B672200036CCF /* Main.storyboard */; };
+		8C877F15207B672200036CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C877F14207B672200036CCF /* Assets.xcassets */; };
+		8C877F18207B672200036CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C877F16207B672200036CCF /* LaunchScreen.storyboard */; };
+		8C877F24207B684D00036CCF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877F23207B684D00036CCF /* MenuViewController.swift */; };
+		8C877F26207B6DEA00036CCF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C877F25207B6DEA00036CCF /* DetailViewController.swift */; };
+		8C9458942084D8A8004409C6 /* DetailShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9458932084D8A8004409C6 /* DetailShowViewController.swift */; };
+		8CBBF211209B56B600B5A95F /* RepertoarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBF210209B56B600B5A95F /* RepertoarModel.swift */; };
+		8CC96C1C20933AB30010E500 /* ComposeRepertoarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC96C1B20933AB30010E500 /* ComposeRepertoarViewController.swift */; };
+		8CC96C1E209340900010E500 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC96C1D209340900010E500 /* PopOverViewController.swift */; };
+		8CDA5F8C20906CF700B87BF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA5F8B20906CF700B87BF7 /* GoogleService-Info.plist */; };
+		8CDA5F8E2090717000B87BF7 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA5F8D2090717000B87BF7 /* ComposeViewController.swift */; };
+		8CDA5F902090BABE00B87BF7 /* PredstaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA5F8F2090BABE00B87BF7 /* PredstaveViewController.swift */; };
+		8CDA5F922090D70800B87BF7 /* ShowsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA5F912090D70800B87BF7 /* ShowsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D47A7BD38746A868933B226 /* Pods_Kamerni_teatar_55.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kamerni_teatar_55.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4577CB7A14DDFBE0F831BBEB /* Pods-Kamerni teatar 55.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kamerni teatar 55.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.release.xcconfig"; sourceTree = "<group>"; };
+		50EA185FF79E0B717056A4DC /* Pods-Kamerni teatar 55.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kamerni teatar 55.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.debug.xcconfig"; sourceTree = "<group>"; };
+		8C08972F207B947300C65503 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		8C089733207BA24F00C65503 /* AnsamblViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsamblViewController.swift; sourceTree = "<group>"; };
+		8C089735207BA31A00C65503 /* ShowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
+		8C089737207BA3B100C65503 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		8C4905C5208754DC00973768 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = Assets.xcassets/logo.imageset/logo.jpg; sourceTree = "<group>"; };
+		8C5D8EA5208E0CEE0050E1E9 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		8C5DEF3220A1E6FD00B616F1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8C73618F2089CFC3007EF922 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../BaseViewController.swift; sourceTree = "<group>"; };
+		8C7CEEAE207CEFA7000ECCF6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8C7CEEB4207CFFE2000ECCF6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8C81D58D20A1C7C500B34DA8 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		8C877C9520873024009C61CE /* ActorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorViewController.swift; sourceTree = "<group>"; };
+		8C877C97208739CF009C61CE /* PartnersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnersViewController.swift; sourceTree = "<group>"; };
+		8C877F0A207B672200036CCF /* Kamerni teatar 55.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamerni teatar 55.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C877F0D207B672200036CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C877F0F207B672200036CCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C877F12207B672200036CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C877F14207B672200036CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C877F17207B672200036CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C877F19207B672200036CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C877F23207B684D00036CCF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8C877F25207B6DEA00036CCF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8C9458932084D8A8004409C6 /* DetailShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowViewController.swift; sourceTree = "<group>"; };
+		8CBBF210209B56B600B5A95F /* RepertoarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepertoarModel.swift; sourceTree = "<group>"; };
+		8CC96C1B20933AB30010E500 /* ComposeRepertoarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeRepertoarViewController.swift; sourceTree = "<group>"; };
+		8CC96C1D209340900010E500 /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		8CDA5F8B20906CF700B87BF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CDA5F8D2090717000B87BF7 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		8CDA5F8F2090BABE00B87BF7 /* PredstaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredstaveViewController.swift; sourceTree = "<group>"; };
+		8CDA5F912090D70800B87BF7 /* ShowsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C877F07207B672200036CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8CA8441BB79029687C9160 /* Pods_Kamerni_teatar_55.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DDE801C46598CA9F7CFCAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A7BD38746A868933B226 /* Pods_Kamerni_teatar_55.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CC9D4CF792BC2380D350F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50EA185FF79E0B717056A4DC /* Pods-Kamerni teatar 55.debug.xcconfig */,
+				4577CB7A14DDFBE0F831BBEB /* Pods-Kamerni teatar 55.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C877F01207B672200036CCF = {
+			isa = PBXGroup;
+			children = (
+				8C877F0C207B672200036CCF /* Kamerni teatar 55 */,
+				8C877F0B207B672200036CCF /* Products */,
+				7CC9D4CF792BC2380D350F02 /* Pods */,
+				25DDE801C46598CA9F7CFCAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C877F0B207B672200036CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C877F0A207B672200036CCF /* Kamerni teatar 55.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C877F0C207B672200036CCF /* Kamerni teatar 55 */ = {
+			isa = PBXGroup;
+			children = (
+				8C73618F2089CFC3007EF922 /* BaseViewController.swift */,
+				8C877F0D207B672200036CCF /* AppDelegate.swift */,
+				8C877F0F207B672200036CCF /* ViewController.swift */,
+				8C9458932084D8A8004409C6 /* DetailShowViewController.swift */,
+				8C7CEEB4207CFFE2000ECCF6 /* CustomTableViewCell.swift */,
+				8C7CEEAE207CEFA7000ECCF6 /* CollectionViewCell.swift */,
+				8C5DEF3220A1E6FD00B616F1 /* TableViewCell.swift */,
+				8C089737207BA3B100C65503 /* EventsViewController.swift */,
+				8C089733207BA24F00C65503 /* AnsamblViewController.swift */,
+				8C877F25207B6DEA00036CCF /* DetailViewController.swift */,
+				8C877F23207B684D00036CCF /* MenuViewController.swift */,
+				8C089735207BA31A00C65503 /* ShowsViewController.swift */,
+				8C08972F207B947300C65503 /* AboutUsViewController.swift */,
+				8C877F11207B672200036CCF /* Main.storyboard */,
+				8C81D58D20A1C7C500B34DA8 /* Storage.swift */,
+				8CC96C1D209340900010E500 /* PopOverViewController.swift */,
+				8CC96C1B20933AB30010E500 /* ComposeRepertoarViewController.swift */,
+				8CDA5F8F2090BABE00B87BF7 /* PredstaveViewController.swift */,
+				8CDA5F8D2090717000B87BF7 /* ComposeViewController.swift */,
+				8CDA5F912090D70800B87BF7 /* ShowsModel.swift */,
+				8CBBF210209B56B600B5A95F /* RepertoarModel.swift */,
+				8C5D8EA5208E0CEE0050E1E9 /* VerifyViewController.swift */,
+				8C877C97208739CF009C61CE /* PartnersViewController.swift */,
+				8C877C9520873024009C61CE /* ActorViewController.swift */,
+				8C877F14207B672200036CCF /* Assets.xcassets */,
+				8C877F16207B672200036CCF /* LaunchScreen.storyboard */,
+				8C877F19207B672200036CCF /* Info.plist */,
+				8CDA5F8B20906CF700B87BF7 /* GoogleService-Info.plist */,
+				8C4905C5208754DC00973768 /* logo.jpg */,
+			);
+			path = "Kamerni teatar 55";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C877F09207B672200036CCF /* Kamerni teatar 55 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C877F1C207B672200036CCF /* Build configuration list for PBXNativeTarget "Kamerni teatar 55" */;
+			buildPhases = (
+				AC826700F39CA158D3E4AE96 /* [CP] Check Pods Manifest.lock */,
+				8C877F06207B672200036CCF /* Sources */,
+				8C877F07207B672200036CCF /* Frameworks */,
+				8C877F08207B672200036CCF /* Resources */,
+				C5C490B2DA9CE4D9A08EAC3D /* [CP] Embed Pods Frameworks */,
+				ECFE43332F81780A8409E697 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kamerni teatar 55";
+			productName = "Kamerni teatar 55";
+			productReference = 8C877F0A207B672200036CCF /* Kamerni teatar 55.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C877F02207B672200036CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SSST;
+				TargetAttributes = {
+					8C877F09207B672200036CCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5DY85BVR75;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C877F05207B672200036CCF /* Build configuration list for PBXProject "Kamerni teatar 55" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C877F01207B672200036CCF;
+			productRefGroup = 8C877F0B207B672200036CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C877F09207B672200036CCF /* Kamerni teatar 55 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C877F08207B672200036CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4905C6208754DC00973768 /* logo.jpg in Resources */,
+				8C877F18207B672200036CCF /* LaunchScreen.storyboard in Resources */,
+				8CDA5F8C20906CF700B87BF7 /* GoogleService-Info.plist in Resources */,
+				8C877F15207B672200036CCF /* Assets.xcassets in Resources */,
+				8C877F13207B672200036CCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC826700F39CA158D3E4AE96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C490B2DA9CE4D9A08EAC3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFE43332F81780A8409E697 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C877F06207B672200036CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7CEEAF207CEFA7000ECCF6 /* CollectionViewCell.swift in Sources */,
+				8C81D58E20A1C7C500B34DA8 /* Storage.swift in Sources */,
+				8CBBF211209B56B600B5A95F /* RepertoarModel.swift in Sources */,
+				8CDA5F902090BABE00B87BF7 /* PredstaveViewController.swift in Sources */,
+				8C877F10207B672200036CCF /* ViewController.swift in Sources */,
+				8C7CEEB5207CFFE2000ECCF6 /* CustomTableViewCell.swift in Sources */,
+				8C5D8EA6208E0CEE0050E1E9 /* VerifyViewController.swift in Sources */,
+				8C877F0E207B672200036CCF /* AppDelegate.swift in Sources */,
+				8C9458942084D8A8004409C6 /* DetailShowViewController.swift in Sources */,
+				8CC96C1C20933AB30010E500 /* ComposeRepertoarViewController.swift in Sources */,
+				8C7361902089CFC3007EF922 /* BaseViewController.swift in Sources */,
+				8C877C98208739CF009C61CE /* PartnersViewController.swift in Sources */,
+				8C877C9620873024009C61CE /* ActorViewController.swift in Sources */,
+				8C877F26207B6DEA00036CCF /* DetailViewController.swift in Sources */,
+				8CC96C1E209340900010E500 /* PopOverViewController.swift in Sources */,
+				8C089730207B947300C65503 /* AboutUsViewController.swift in Sources */,
+				8CDA5F8E2090717000B87BF7 /* ComposeViewController.swift in Sources */,
+				8C877F24207B684D00036CCF /* MenuViewController.swift in Sources */,
+				8CDA5F922090D70800B87BF7 /* ShowsModel.swift in Sources */,
+				8C089734207BA24F00C65503 /* AnsamblViewController.swift in Sources */,
+				8C089736207BA31A00C65503 /* ShowsViewController.swift in Sources */,
+				8C089738207BA3B100C65503 /* EventsViewController.swift in Sources */,
+				8C5DEF3320A1E6FD00B616F1 /* TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C877F11207B672200036CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C877F12207B672200036CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C877F16207B672200036CCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C877F17207B672200036CCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C877F1A207B672200036CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C877F1B207B672200036CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C877F1D207B672200036CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50EA185FF79E0B717056A4DC /* Pods-Kamerni teatar 55.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DY85BVR75;
+				INFOPLIST_FILE = "Kamerni teatar 55/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kreso.Kamerni-teatar-55";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C877F1E207B672200036CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4577CB7A14DDFBE0F831BBEB /* Pods-Kamerni teatar 55.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DY85BVR75;
+				INFOPLIST_FILE = "Kamerni teatar 55/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kreso.Kamerni-teatar-55";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C877F05207B672200036CCF /* Build configuration list for PBXProject "Kamerni teatar 55" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C877F1A207B672200036CCF /* Debug */,
+				8C877F1B207B672200036CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C877F1C207B672200036CCF /* Build configuration list for PBXNativeTarget "Kamerni teatar 55" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C877F1D207B672200036CCF /* Debug */,
+				8C877F1E207B672200036CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C877F02207B672200036CCF /* Project object */;
+}
