@@ -1,0 +1,6 @@
+framework module Pods_Kamerni_teatar_55 {
+  umbrella header "Pods-Kamerni teatar 55-umbrella.h"
+
+  export *
+  module * { export * }
+}
