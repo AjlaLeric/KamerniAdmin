@@ -8,9 +8,11 @@
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
+class CollectionViewCell: UITableViewCell {
     
+    
+   
+    @IBOutlet weak var locationDescription: UILabel!
     @IBOutlet weak var locationImage: UIImageView!
     @IBOutlet weak var locationName: UILabel!
-    @IBOutlet weak var locationDescription: UILabel!
     }

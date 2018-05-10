@@ -10,17 +10,19 @@ import UIKit
 import FirebaseDatabase
 import Firebase
 
-class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICollectionViewDelegate
+class ShowsViewController: BaseViewController, UITableViewDelegate, UITableViewDataSource
 {
     
     var showList = [ShowsModel]()
     
     var refShows: DatabaseReference!
+
    
     var ref:DatabaseReference?
 
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var tableView: UITableView!
+    
     
      let locationImage = [UIImage(named: "radnjanauglu"), UIImage(named: "ljupaf"), UIImage(named: "umrimuski"), UIImage(named:"kbng")]
     /**
@@ -42,8 +44,8 @@ class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICol
         
         
         super.viewDidLoad()
-        collectionView.delegate = self
-        collectionView.dataSource = self
+        tableView.delegate = self
+        tableView.dataSource = self
         
     
             addSlideMenuButton()
@@ -74,7 +76,7 @@ class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICol
                 }
                 
                 //reloading the tableview
-                self.collectionView.reloadData()
+                self.tableView.reloadData()
             }
         })
         /**
@@ -93,15 +95,16 @@ class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICol
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return showList.count
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
+      
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CollectionViewCell
         
         let show: ShowsModel
         show = showList[indexPath.row]
@@ -109,8 +112,8 @@ class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICol
         cell.locationDescription.text = show.description
         
         
-        cell.contentView.layer.cornerRadius = 4.0
-        cell.contentView.layer.borderWidth = 1.0
+        cell.contentView.layer.cornerRadius = 2.0
+        cell.contentView.layer.borderWidth = 0.2
         cell.contentView.layer.borderColor = UIColor.clear.cgColor
         cell.contentView.layer.masksToBounds = false
         cell.layer.shadowColor = UIColor.gray.cgColor
@@ -122,7 +125,22 @@ class ShowsViewController: BaseViewController, UICollectionViewDataSource, UICol
         return cell
         
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "predstavaprikaz"
+        {
+            
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let show = showList[indexPath.row]
+                let destVC : DetailShowViewController = segue.destination as! DetailShowViewController
+                destVC.showName = show.name!
+                destVC.showDesc = show.description!
+                destVC.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                destVC.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
+    }
+
 
     }
     /**

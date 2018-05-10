@@ -54,6 +54,7 @@ class ComposeViewController: UIViewController {
         presentingViewController?.dismiss(animated: true, completion: nil)
 
     }
+    
 
     /*
     // MARK: - Navigation

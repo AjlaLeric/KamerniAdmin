@@ -12,22 +12,24 @@ import UIKit
 class DetailShowViewController: UIViewController {
     
     var index = 0
+    var showName :String = ""
+    var showDesc :String = ""
     
-    var name  =  ["Radnja na uglu", "Ljupaf", "Umri muski", "Kad bi naglas govorili"]
-    
+    /*
     var image = [UIImage(named: "rg"), UIImage(named: "ljup"), UIImage(named: "um"), UIImage(named:"kb")]
+ */
     
-    var desc = [""]
+    
 
     @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var txtview: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbl.text = name[index]
-        img.image = image[index]
-        txtview.text = desc[index]
-        // Do any additional setup after loading the view.
+        
+        lbl.text = showName
+        txtview.text = showDesc
+        
     }
 
     override func didReceiveMemoryWarning() {
