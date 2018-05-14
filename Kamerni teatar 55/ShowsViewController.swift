@@ -140,6 +140,21 @@ class ShowsViewController: BaseViewController, UITableViewDelegate, UITableViewD
             }
         }
     }
+    
+    func deleteShow(id: String)
+    {
+        refShows.child(id).setValue(nil)
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.delete
+        {
+            let show = showList[indexPath.row]
+            let id = show.id
+            self.deleteShow(id: id!)
+            tableView.reloadData()
+        }
+    }
 
 
     }
