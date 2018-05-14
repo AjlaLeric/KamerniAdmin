@@ -57,12 +57,29 @@ class EventsViewController: BaseViewController, UITableViewDelegate, UITableView
         })
 
 
+        
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
+    
+       override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func deleteEvent(id: String)
+    {
+        refShows.child(id).setValue(nil)
+    }
+    
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.delete
+        {
+            let event = repertoarList[indexPath.row]
+             let id = event.id
+            self.deleteEvent(id: id!)
+            tableView.reloadData()
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -78,6 +95,18 @@ class EventsViewController: BaseViewController, UITableViewDelegate, UITableView
       
         cell.eventName.text = event.name
         cell.eventDate.text = event.date
+        
+        cell.contentView.layer.cornerRadius = 2.0
+        cell.contentView.layer.borderWidth = 0.2
+        cell.contentView.layer.borderColor = UIColor.clear.cgColor
+        cell.contentView.layer.masksToBounds = false
+        cell.layer.shadowColor = UIColor.gray.cgColor
+        cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+        cell.layer.shadowRadius = 4.0
+        cell.layer.shadowOpacity = 1.0
+        cell.layer.masksToBounds = false
+        cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
+
         
     return cell
 }
