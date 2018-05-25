@@ -7,24 +7,24 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: BaseViewController {
 
-    @IBOutlet weak var statuslbl: UILabel!
+    @IBOutlet weak var webView: UIWebView!
    
-    
     override func viewDidLoad() {
+        let fileURL = NSURL(fileURLWithPath: "/Users/mini6/Desktop/Kamerni-Admin/Kamerni teatar 55/KamerniClip.mp4")
+        
+        
+      webView.loadHTMLString("<iframe width = \" \(self.webView.frame.width) \" height = \" \(self.webView.frame.height)\" src = \"\(fileURL)\"> </iframe>", baseURL: nil)
         super.viewDidLoad()
-        let date = Date()
-        let formatter = DateFormatter()
-        
-        formatter.dateStyle = .long
-        formatter.timeStyle = .none
-        
-        statuslbl.text = "\(formatter.string(from:date))"        // Do any additional setup after loading the view, typically from a nib.
-        addSlideMenuButton()
+            addSlideMenuButton()
     }
 
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

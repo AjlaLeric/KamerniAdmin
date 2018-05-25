@@ -220,15 +220,6 @@
                                             <action selector="btnAboutUsTapped:" destination="3H7-oQ-Vdg" eventType="touchUpInside" id="oQs-vR-NpD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZC-0D-fBD">
-                                        <rect key="frame" x="89" y="514" width="113" height="59"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Rezervisi"/>
-                                        <connections>
-                                            <action selector="btnVerifytapped:" destination="3H7-oQ-Vdg" eventType="touchUpInside" id="mXJ-vt-3Gl"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9401375841831211" green="0.9558811339522546" blue="0.95104394171416962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -436,32 +427,47 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="15"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="center" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="170" id="Ob7-ZH-dfT" customClass="CollectionViewCell" customModule="Kamerni_teatar_55" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="170"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="center" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="200" id="Ob7-ZH-dfT" customClass="CollectionViewCell" customModule="Kamerni_teatar_55" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="20" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ob7-ZH-dfT" id="jFH-Qx-Ec8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="169.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" image="radnjanauglu" translatesAutoresizingMaskIntoConstraints="NO" id="h01-dx-la9">
-                                                    <rect key="frame" x="10" y="5" width="159" height="140"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="kamerni_teatar" translatesAutoresizingMaskIntoConstraints="NO" id="h01-dx-la9">
+                                                    <rect key="frame" x="10" y="5" width="159" height="170"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="159" id="exA-FV-NYH"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krj-LY-TVE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krj-LY-TVE">
                                                     <rect key="frame" x="175" y="7" width="192" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="gkK-JA-4Y8"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIf-vE-vJG">
-                                                    <rect key="frame" x="177" y="62" width="182" height="81"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIf-vE-vJG">
+                                                    <rect key="frame" x="177" y="62" width="182" height="111"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="h01-dx-la9" secondAttribute="bottom" constant="16.5" id="Cgp-tG-mC6"/>
+                                                <constraint firstItem="krj-LY-TVE" firstAttribute="top" secondItem="jFH-Qx-Ec8" secondAttribute="topMargin" constant="-1" id="EIa-YK-QGl"/>
+                                                <constraint firstItem="krj-LY-TVE" firstAttribute="leading" secondItem="h01-dx-la9" secondAttribute="trailing" constant="6" id="I0Q-gg-xg4"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="LIf-vE-vJG" secondAttribute="bottom" constant="18.5" id="PZI-FT-LNi"/>
+                                                <constraint firstItem="h01-dx-la9" firstAttribute="top" secondItem="jFH-Qx-Ec8" secondAttribute="topMargin" constant="-3" id="hD6-e9-W2N"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="LIf-vE-vJG" secondAttribute="trailing" constant="8" id="kgg-lD-2mr"/>
+                                                <constraint firstItem="h01-dx-la9" firstAttribute="leading" secondItem="jFH-Qx-Ec8" secondAttribute="leadingMargin" constant="2" id="mZ4-Ny-EsH"/>
+                                                <constraint firstItem="krj-LY-TVE" firstAttribute="trailing" secondItem="jFH-Qx-Ec8" secondAttribute="trailingMargin" id="tsC-C4-0ye"/>
+                                                <constraint firstItem="LIf-vE-vJG" firstAttribute="leading" secondItem="h01-dx-la9" secondAttribute="trailing" constant="8" symbolic="YES" id="vwR-Mx-BmG"/>
+                                                <constraint firstItem="LIf-vE-vJG" firstAttribute="top" secondItem="krj-LY-TVE" secondAttribute="bottom" constant="33" id="yk9-gO-S8P"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
@@ -503,7 +509,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cP5-eC-UpU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kamerni_teatar" translatesAutoresizingMaskIntoConstraints="NO" id="cP5-eC-UpU">
                                 <rect key="frame" x="5" y="153" width="365" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="172" id="0Qf-BE-4y8"/>
@@ -577,23 +583,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJc-ua-nTB">
-                                <rect key="frame" x="20" y="84" width="335" height="32.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwJ-fP-nPW">
+                                <rect key="frame" x="55" y="303" width="264" height="197"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SgH-QA-3X8">
+                                <rect key="frame" x="67" y="117" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="8In-gR-1Us"/>
+                                    <constraint firstAttribute="height" constant="128" id="Rpy-0l-dx4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.9856791064" green="1" blue="0.99000153189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="UJc-ua-nTB" secondAttribute="trailing" constant="20" id="1M1-lz-A4C"/>
-                            <constraint firstItem="UJc-ua-nTB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="IxR-sE-mtr"/>
-                            <constraint firstItem="UJc-ua-nTB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Kyn-3L-FE6"/>
+                            <constraint firstItem="mwJ-fP-nPW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="39" id="7bS-Er-1rb"/>
+                            <constraint firstItem="SgH-QA-3X8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A4g-OX-6n8"/>
+                            <constraint firstItem="mwJ-fP-nPW" firstAttribute="top" secondItem="SgH-QA-3X8" secondAttribute="bottom" constant="58" id="ScU-8H-T0Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mwJ-fP-nPW" secondAttribute="bottom" constant="167" id="XbM-IZ-PUT"/>
+                            <constraint firstItem="SgH-QA-3X8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="l7A-zX-2ih"/>
+                            <constraint firstItem="SgH-QA-3X8" firstAttribute="centerX" secondItem="mwJ-fP-nPW" secondAttribute="centerX" id="yla-Ed-NU3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="K85-Wi-5SD"/>
                     <connections>
-                        <outlet property="statuslbl" destination="UJc-ua-nTB" id="nMZ-mP-LEy"/>
+                        <outlet property="webView" destination="mwJ-fP-nPW" id="fNX-JI-uHu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1119,10 +1133,11 @@
         <image name="handshake" width="128" height="128"/>
         <image name="home-icon-silhouette-3" width="128" height="128"/>
         <image name="information" width="128" height="128"/>
+        <image name="kamerni_teatar" width="460" height="290"/>
+        <image name="logo" width="950" height="450"/>
         <image name="mh" width="400" height="600"/>
         <image name="partneri" width="550" height="779"/>
         <image name="phone-book" width="128" height="128"/>
-        <image name="radnjanauglu" width="275" height="183"/>
         <image name="theatre" width="128" height="128"/>
         <image name="users-group" width="128" height="128"/>
     </resources>

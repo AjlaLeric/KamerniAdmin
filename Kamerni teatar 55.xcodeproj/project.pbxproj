@@ -66,6 +66,7 @@
 		8C877F25207B6DEA00036CCF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8C9458932084D8A8004409C6 /* DetailShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowViewController.swift; sourceTree = "<group>"; };
 		8CBBF210209B56B600B5A95F /* RepertoarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepertoarModel.swift; sourceTree = "<group>"; };
+		8CC6948420B2F7C100EA9418 /* KamerniClip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = KamerniClip.mp4; sourceTree = "<group>"; };
 		8CC96C1B20933AB30010E500 /* ComposeRepertoarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeRepertoarViewController.swift; sourceTree = "<group>"; };
 		8CC96C1D209340900010E500 /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 		8CDA5F8B20906CF700B87BF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				8C5D8EA5208E0CEE0050E1E9 /* VerifyViewController.swift */,
 				8C877C97208739CF009C61CE /* PartnersViewController.swift */,
 				8C877C9520873024009C61CE /* ActorViewController.swift */,
+				8CC6948420B2F7C100EA9418 /* KamerniClip.mp4 */,
 				8C877F14207B672200036CCF /* Assets.xcassets */,
 				8C877F16207B672200036CCF /* LaunchScreen.storyboard */,
 				8C877F19207B672200036CCF /* Info.plist */,
