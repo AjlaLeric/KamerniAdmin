@@ -89,15 +89,10 @@ class ShowsViewController: BaseViewController, UITableViewDelegate, UITableViewD
         cell.locationDescription.text = show.description
         
         
-        cell.contentView.layer.cornerRadius = 2.0
-        cell.contentView.layer.borderWidth = 0.2
         cell.contentView.layer.borderColor = UIColor.clear.cgColor
         cell.contentView.layer.masksToBounds = false
         cell.layer.shadowColor = UIColor.gray.cgColor
         cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
-        cell.layer.shadowRadius = 4.0
-        cell.layer.shadowOpacity = 1.0
-        cell.layer.masksToBounds = false
         cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
         
      
