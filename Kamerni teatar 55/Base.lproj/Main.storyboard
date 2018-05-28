@@ -440,7 +440,7 @@
                                                             <rect key="frame" x="16" y="21" width="148" height="153"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUC-B2-VGP">
-                                                            <rect key="frame" x="194" y="21" width="139" height="21"/>
+                                                            <rect key="frame" x="279" y="21" width="54" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="P47-lq-yyW"/>
                                                             </constraints>
@@ -460,16 +460,15 @@
                                                     </subviews>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="top" secondItem="Zx2-Ka-o5m" secondAttribute="top" constant="21" id="1Rr-wt-hze"/>
-                                                        <constraint firstItem="MAN-Wu-VYy" firstAttribute="leading" secondItem="8v4-Ai-UYD" secondAttribute="trailing" constant="8" symbolic="YES" id="1pd-Mm-BES"/>
-                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="leading" secondItem="Zx2-Ka-o5m" secondAttribute="leading" constant="16" id="Hn8-vr-faj"/>
+                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="top" secondItem="SUC-B2-VGP" secondAttribute="top" id="Co4-EC-rqq"/>
+                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="top" secondItem="Zx2-Ka-o5m" secondAttribute="top" constant="21" id="Dyj-dY-Rgd"/>
                                                         <constraint firstAttribute="bottom" secondItem="MAN-Wu-VYy" secondAttribute="bottom" constant="47" id="LAL-U8-Vh2"/>
-                                                        <constraint firstItem="SUC-B2-VGP" firstAttribute="leading" secondItem="8v4-Ai-UYD" secondAttribute="trailing" constant="30" id="Mp6-Mb-RLP"/>
                                                         <constraint firstItem="MAN-Wu-VYy" firstAttribute="top" secondItem="SUC-B2-VGP" secondAttribute="bottom" constant="28" id="SeK-3m-RYE"/>
-                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="centerY" secondItem="Zx2-Ka-o5m" secondAttribute="centerY" id="TWh-0H-UIr"/>
-                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="top" secondItem="SUC-B2-VGP" secondAttribute="top" id="fhU-k6-lfd"/>
+                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="leading" secondItem="Zx2-Ka-o5m" secondAttribute="leading" constant="16" id="cd0-fT-Pkr"/>
                                                         <constraint firstAttribute="trailing" secondItem="SUC-B2-VGP" secondAttribute="trailing" constant="42" id="jS7-1o-pBs"/>
                                                         <constraint firstAttribute="trailing" secondItem="MAN-Wu-VYy" secondAttribute="trailing" constant="67" id="lPQ-Kh-VkM"/>
+                                                        <constraint firstItem="8v4-Ai-UYD" firstAttribute="centerY" secondItem="Zx2-Ka-o5m" secondAttribute="centerY" id="qSY-B2-Fc1"/>
+                                                        <constraint firstItem="MAN-Wu-VYy" firstAttribute="leading" secondItem="8v4-Ai-UYD" secondAttribute="trailing" constant="8" symbolic="YES" id="reN-ez-aJs"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
