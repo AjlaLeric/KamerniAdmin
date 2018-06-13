@@ -18,10 +18,12 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.1)
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
+  - YouTubePlayer (0.4.0)
 
 DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
+  - YouTubePlayer
 
 SPEC CHECKSUMS:
   Firebase: 284eea779b73fdff309791817da7c68bff8dd572
@@ -30,7 +32,8 @@ SPEC CHECKSUMS:
   FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
   FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
 
-PODFILE CHECKSUM: f2dc41b634018d681b0057a8821b119d98b87103
+PODFILE CHECKSUM: 8dfb1676ee051e074f4a28d404def3b7441711fb
 
 COCOAPODS: 1.2.1

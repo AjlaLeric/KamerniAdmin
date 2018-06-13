@@ -7,66 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3698D175680FFCB8AEFE369783FD1625 /* Pods-Kamerni teatar 55-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F1B9601D8F36BC907A41241E9B6737 /* Pods-Kamerni teatar 55-dummy.m */; };
-		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40794DACBE134EF581DACE70539EEB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		511F9868AE262829C2AAC2422DFE01AD /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB9B3667D85FB9F5BD1D27CCCC8ACD /* YouTubePlayer-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3C62C0DF4C6479E0A1DB29BB60F666 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE299B85675E2DEE37C313EC5BBA6FC /* Pods-Kamerni teatar 55-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F1B9601D8F36BC907A41241E9B6737 /* Pods-Kamerni teatar 55-dummy.m */; };
+		6B090FC0DB06FC1F0F935B3E2CFE6B4B /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 444A9F57F96F8C5B75BCB6E49F4E3B0D /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED9F63DC9E20B6E41DDF1378C151D0C /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A886D0787DD585F053EBBC26950E9A /* YouTubePlayer.swift */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8891EBC4A2878F7026E3004A13DE6601 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B11809AF93AF4A76142EA898D0249309 /* Pods-Kamerni teatar 55-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E7A09190C9326A0CD574574F16C06D /* Pods-Kamerni teatar 55-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E34EDC2468F06E8D3E055B5B4FA5E29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */; };
+		AB594EE0D5CFF197D8BDB1FA40A2BA17 /* Pods-Kamerni teatar 55-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E7A09190C9326A0CD574574F16C06D /* Pods-Kamerni teatar 55-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D269B3A193E3870F813DDB3A0913A3 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = AEEE7DFDF0176615A27C9EE3A510E627 /* YTPlayer.html */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 670D64C331AA0F73CD5306F724D6D592 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 01405939F1DF782177DE95B2FCAB8B8B /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EBF1D9C368D3CB69F6D756D48A2588 /* GoogleToolboxForMac-dummy.m */; };
+		FE55B8518319D55039D5236D6FB50CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8AA625BF6C927477E0B411DE98BEB252 /* PBXContainerItemProxy */ = {
+		51CF2C114E136BE6C64FEA6356CE3575 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
 			remoteInfo = GoogleToolboxForMac;
 		};
+		B114FEB872C52619BC832EDEA2A208EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F670E78F55148AD44A4E1838FCE6AA2;
+			remoteInfo = YouTubePlayer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01405939F1DF782177DE95B2FCAB8B8B /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		04497088B0F5ED4D9B3CE6DD5835D634 /* Pods-Kamerni teatar 55-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kamerni teatar 55-frameworks.sh"; sourceTree = "<group>"; };
+		09B03AF4BCF26CF61E895B46F7E37615 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		09C088A17B5507A22DEF5EBA9FB3C336 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
 		0FF8B01FB91ACC920C10DC6AEB30A052 /* Pods-Kamerni teatar 55.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kamerni teatar 55.release.xcconfig"; sourceTree = "<group>"; };
-		1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
-		19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		2209FC40DCD8B20B5E8E2A606D40741A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		17A886D0787DD585F053EBBC26950E9A /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		1ADD7AEB0673E29052F9611133A312B0 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2187376105D8C2110CE7CB4483C37AAC /* Pods_Kamerni_teatar_55.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kamerni_teatar_55.framework; path = "Pods-Kamerni teatar 55.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320AA89B7915FE051D94C4C9520957F2 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		3BC4B55E147EA9EDE0F0E01F55782C29 /* Pods-Kamerni teatar 55.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kamerni teatar 55.debug.xcconfig"; sourceTree = "<group>"; };
-		407F73D7D1BE87ED4C590BF70BB3D556 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		4134255C026EA6825C7815506057D064 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		4F03AE5A2F62FE3FC7CEFBD6B2856E85 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		5EF4BDF3738563179E565ABABF0546E7 /* Pods_Kamerni_teatar_55.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kamerni_teatar_55.framework; path = "Pods-Kamerni teatar 55.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		444A9F57F96F8C5B75BCB6E49F4E3B0D /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		5AA2CE6F021EA744A2764C1DE53DDAC2 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		670D64C331AA0F73CD5306F724D6D592 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		71610F2A9FABCE1C8E63A80F59F55267 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		72E7A09190C9326A0CD574574F16C06D /* Pods-Kamerni teatar 55-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kamerni teatar 55-umbrella.h"; sourceTree = "<group>"; };
+		7C85BC089E42428140637AEBA74C4D4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE5A9922C39D403275E385F905933D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D6FE7C38C8E2643397AD01311445E06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3FB2E287E624D62C99A6211A985D37 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84613DDE6DEF35A9633DBA9949D540CC /* Pods-Kamerni teatar 55-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kamerni teatar 55-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		8891EBC4A2878F7026E3004A13DE6601 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		91CD614FD99F61E70CFC6555A72394E7 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96589EE89973C91D4B6048E4C794A339 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		9750CA241B26FA1981F08DDC982BD37C /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		979EA68CCB5AF9D7914B3ED683327B8E /* Pods-Kamerni teatar 55-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kamerni teatar 55-acknowledgements.plist"; sourceTree = "<group>"; };
-		9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		AC4F1AD7A2D53A83EE7B729989A48FCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EBF1D9C368D3CB69F6D756D48A2588 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		AEEE7DFDF0176615A27C9EE3A510E627 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
 		B1599C3EAE0986328D467F29F2A12AD5 /* Pods-Kamerni teatar 55-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kamerni teatar 55-resources.sh"; sourceTree = "<group>"; };
-		C1EB450B5C08E7F68D19A28C61D085DF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		C2B87930996DC119DE140DF32A90E471 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		D0F1B9601D8F36BC907A41241E9B6737 /* Pods-Kamerni teatar 55-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kamerni teatar 55-dummy.m"; sourceTree = "<group>"; };
-		D1F21575831804F7B5E5378278DF28A7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		DD3C62C0DF4C6479E0A1DB29BB60F666 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		DD996A15D8AC05E14669A5D317250E69 /* Pods-Kamerni teatar 55.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kamerni teatar 55.modulemap"; sourceTree = "<group>"; };
-		E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		E9EE1BE34F346A132E73987DFA30272A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		FFF064D94BB0C047FA6E9FCACC70C1BE /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		E28E609A40F77707FE9C3CC7FE65AAA5 /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
+		E35D2CBEDAC124969F3A9724ABCB95AE /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		E4D88B3029B111549D8F9FABD4A06EC3 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB76E3D51E873C9EDF8213E69289217 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		EFAB9B3667D85FB9F5BD1D27CCCC8ACD /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FC96ABA6A4A5191854CB29BE6356E43 /* Frameworks */ = {
+		2EA27220C0AA8FE6C6B9A1F219E5E59A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34EDC2468F06E8D3E055B5B4FA5E29A /* Foundation.framework in Frameworks */,
+				40794DACBE134EF581DACE70539EEB6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5CCB2CE9B73CDACE7DE5F9E35D709E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE55B8518319D55039D5236D6FB50CAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,37 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F2FD44F2E6572057E224C2C73827E2 /* Core */ = {
+		2370E91AC44057888644E0C4BDEC2C13 /* YouTubePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */,
+				17A886D0787DD585F053EBBC26950E9A /* YouTubePlayer.swift */,
+				A435C034EB3E8D6741DBF9B95EAB1841 /* Resources */,
+				D2F6074A7DCB11F8B6A3A5FB1360651D /* Support Files */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		0CB04BFF6ED93A08ECC0FAE74CED1FF7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D1F21575831804F7B5E5378278DF28A7 /* GoogleToolboxForMac.framework */,
-				5EF4BDF3738563179E565ABABF0546E7 /* Pods_Kamerni_teatar_55.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		10E8685FAAD0C33170DE2D562037EF47 /* Defines */ = {
-			isa = PBXGroup;
-			children = (
-				E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */,
-			);
-			name = Defines;
-			sourceTree = "<group>";
-		};
-		22630EE6BE14930BD68DB3A410A789E9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F03AE5A2F62FE3FC7CEFBD6B2856E85 /* FirebaseDatabase.framework */,
-			);
-			name = Frameworks;
+			name = YouTubePlayer;
+			path = YouTubePlayer;
 			sourceTree = "<group>";
 		};
 		33CC5FA4C9A0B1434A35935C7B7111D8 /* Pods-Kamerni teatar 55 */ = {
@@ -132,52 +139,77 @@
 			path = "Target Support Files/Pods-Kamerni teatar 55";
 			sourceTree = "<group>";
 		};
-		3F2EBD8B64B5E30E2186A6FBD94C29CE /* Frameworks */ = {
+		3D3F7E8675468A9A255B9C376397C718 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C1EB450B5C08E7F68D19A28C61D085DF /* FirebaseAnalytics.framework */,
+				C2B87930996DC119DE140DF32A90E471 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4700A21D3EF68181D4B84F2772AC99DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AA2CE6F021EA744A2764C1DE53DDAC2 /* GoogleToolboxForMac.modulemap */,
+				71610F2A9FABCE1C8E63A80F59F55267 /* GoogleToolboxForMac.xcconfig */,
+				A0EBF1D9C368D3CB69F6D756D48A2588 /* GoogleToolboxForMac-dummy.m */,
+				E35D2CBEDAC124969F3A9724ABCB95AE /* GoogleToolboxForMac-prefix.pch */,
+				8891EBC4A2878F7026E3004A13DE6601 /* GoogleToolboxForMac-umbrella.h */,
+				7C85BC089E42428140637AEBA74C4D4F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		48A7EDBDAA39093C7A425931CA593638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320AA89B7915FE051D94C4C9520957F2 /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BF342483D716869318887CB1B3AE375 /* Pods */ = {
+		54EA887CE48E3F92D0FB869D7A2AAF02 /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
-				68D9E6B7E092219B91D89716FD281070 /* Firebase */,
-				5B775B89F574A70CFB8D5F0DC67084A7 /* FirebaseAnalytics */,
-				DD554D2F7D7980ACC234F5729B037D51 /* FirebaseCore */,
-				BB2D016D344B6687A72B1852DF2B72D1 /* FirebaseDatabase */,
-				8EA7290AE530824E4C7D00087C7D9AC8 /* FirebaseInstanceID */,
-				A787A628EADD646FA1A1D9C8E7A9248D /* GoogleToolboxForMac */,
+				95CC155B59EB795BCC54B5F30F041551 /* Defines */,
+				78BEE3309E7AE4FBF208749BC7AC72C9 /* NSData+zlib */,
+				4700A21D3EF68181D4B84F2772AC99DD /* Support Files */,
 			);
-			name = Pods;
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
-		5B775B89F574A70CFB8D5F0DC67084A7 /* FirebaseAnalytics */ = {
+		5A82924866531DAEC0E90B579A041371 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				3F2EBD8B64B5E30E2186A6FBD94C29CE /* Frameworks */,
+				48A7EDBDAA39093C7A425931CA593638 /* Frameworks */,
 			);
 			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		68D9E6B7E092219B91D89716FD281070 /* Firebase */ = {
+		5F45798DA149BCF3082275B0158D2CC2 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				09F2FD44F2E6572057E224C2C73827E2 /* Core */,
+				A2B187EF3B023ADDF9557EA484823EB9 /* Frameworks */,
 			);
-			name = Firebase;
-			path = Firebase;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		6B68D45812C2C46C6A1D821AC37D544B /* NSData+zlib */ = {
+		6ABBCBE4575941A82ECF4466DE2D8575 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */,
-				8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */,
+				B6377BC86CA777A4A0744EF274575F85 /* Firebase */,
+				5A82924866531DAEC0E90B579A041371 /* FirebaseAnalytics */,
+				9732A12A934138FAD9D731418F539BB5 /* FirebaseCore */,
+				C7934E5DE87B415642C90D9E7FE5BFED /* FirebaseDatabase */,
+				5F45798DA149BCF3082275B0158D2CC2 /* FirebaseInstanceID */,
+				54EA887CE48E3F92D0FB869D7A2AAF02 /* GoogleToolboxForMac */,
+				2370E91AC44057888644E0C4BDEC2C13 /* YouTubePlayer */,
 			);
-			name = "NSData+zlib";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		757FBBC3157E3167CE2714A3A6E72661 /* Targets Support Files */ = {
@@ -188,58 +220,84 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		78BEE3309E7AE4FBF208749BC7AC72C9 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				670D64C331AA0F73CD5306F724D6D592 /* GTMNSData+zlib.h */,
+				01405939F1DF782177DE95B2FCAB8B8B /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		7BF83F9C802BBF40882BA0FBE0912718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B03AF4BCF26CF61E895B46F7E37615 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4BF342483D716869318887CB1B3AE375 /* Pods */,
-				0CB04BFF6ED93A08ECC0FAE74CED1FF7 /* Products */,
+				6ABBCBE4575941A82ECF4466DE2D8575 /* Pods */,
+				BC871D6F71836BE31A7AE827851603F4 /* Products */,
 				757FBBC3157E3167CE2714A3A6E72661 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EA7290AE530824E4C7D00087C7D9AC8 /* FirebaseInstanceID */ = {
+		95CC155B59EB795BCC54B5F30F041551 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
-				F0F116DE54A3573FC3A328A5E6A5821D /* Frameworks */,
+				DD3C62C0DF4C6479E0A1DB29BB60F666 /* GTMDefines.h */,
 			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
+			name = Defines;
 			sourceTree = "<group>";
 		};
-		A787A628EADD646FA1A1D9C8E7A9248D /* GoogleToolboxForMac */ = {
+		96CE490CAE61D3D684365BF6BBB354F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10E8685FAAD0C33170DE2D562037EF47 /* Defines */,
-				6B68D45812C2C46C6A1D821AC37D544B /* NSData+zlib */,
-				A96AF31933F6210AC40D20C134635815 /* Support Files */,
+				9750CA241B26FA1981F08DDC982BD37C /* FirebaseCore.framework */,
+				91CD614FD99F61E70CFC6555A72394E7 /* FirebaseCoreDiagnostics.framework */,
+				96589EE89973C91D4B6048E4C794A339 /* FirebaseNanoPB.framework */,
 			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A96AF31933F6210AC40D20C134635815 /* Support Files */ = {
+		9732A12A934138FAD9D731418F539BB5 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */,
-				19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */,
-				D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */,
-				4134255C026EA6825C7815506057D064 /* GoogleToolboxForMac-prefix.pch */,
-				1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */,
-				AC4F1AD7A2D53A83EE7B729989A48FCF /* Info.plist */,
+				96CE490CAE61D3D684365BF6BBB354F8 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
-		BB2D016D344B6687A72B1852DF2B72D1 /* FirebaseDatabase */ = {
+		A2B187EF3B023ADDF9557EA484823EB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22630EE6BE14930BD68DB3A410A789E9 /* Frameworks */,
+				1ADD7AEB0673E29052F9611133A312B0 /* FirebaseInstanceID.framework */,
 			);
-			name = FirebaseDatabase;
-			path = FirebaseDatabase;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A435C034EB3E8D6741DBF9B95EAB1841 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE7DFDF0176615A27C9EE3A510E627 /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6377BC86CA777A4A0744EF274575F85 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F7E8675468A9A255B9C376397C718 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -250,6 +308,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC871D6F71836BE31A7AE827851603F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D88B3029B111549D8F9FABD4A06EC3 /* GoogleToolboxForMac.framework */,
+				2187376105D8C2110CE7CB4483C37AAC /* Pods_Kamerni_teatar_55.framework */,
+				7F3FB2E287E624D62C99A6211A985D37 /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7934E5DE87B415642C90D9E7FE5BFED /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				7BF83F9C802BBF40882BA0FBE0912718 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		D2F6074A7DCB11F8B6A3A5FB1360651D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5A9922C39D403275E385F905933D6 /* Info.plist */,
+				09C088A17B5507A22DEF5EBA9FB3C336 /* YouTubePlayer.modulemap */,
+				E28E609A40F77707FE9C3CC7FE65AAA5 /* YouTubePlayer.xcconfig */,
+				EFAB9B3667D85FB9F5BD1D27CCCC8ACD /* YouTubePlayer-dummy.m */,
+				EBB76E3D51E873C9EDF8213E69289217 /* YouTubePlayer-prefix.pch */,
+				444A9F57F96F8C5B75BCB6E49F4E3B0D /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,41 +349,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D71ADF73073AE7495962E463351A93C0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				407F73D7D1BE87ED4C590BF70BB3D556 /* FirebaseCore.framework */,
-				2209FC40DCD8B20B5E8E2A606D40741A /* FirebaseCoreDiagnostics.framework */,
-				FFF064D94BB0C047FA6E9FCACC70C1BE /* FirebaseNanoPB.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DD554D2F7D7980ACC234F5729B037D51 /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				D71ADF73073AE7495962E463351A93C0 /* Frameworks */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		F0F116DE54A3573FC3A328A5E6A5821D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9EE1BE34F346A132E73987DFA30272A /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17572AF235A2C5AC9B2D0940DAB7272B /* Headers */ = {
+		2A36BF2D74FBB3A6FDFE18E9684A01E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11809AF93AF4A76142EA898D0249309 /* Pods-Kamerni teatar 55-umbrella.h in Headers */,
+				6B090FC0DB06FC1F0F935B3E2CFE6B4B /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9064D4F8138B97EB0D3123D2DC5B7693 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB594EE0D5CFF197D8BDB1FA40A2BA17 /* Pods-Kamerni teatar 55-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,25 +395,44 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = D1F21575831804F7B5E5378278DF28A7 /* GoogleToolboxForMac.framework */;
+			productReference = E4D88B3029B111549D8F9FABD4A06EC3 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		57E67F17F67E332F53B0BDB9F1CC4424 /* Pods-Kamerni teatar 55 */ = {
+		56212ABF9D2EC76739064B4EB06995A3 /* Pods-Kamerni teatar 55 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CBED37B942627887E565DF9C90A393D /* Build configuration list for PBXNativeTarget "Pods-Kamerni teatar 55" */;
+			buildConfigurationList = 1C378E4328E72A54C9484197ADC4CCC3 /* Build configuration list for PBXNativeTarget "Pods-Kamerni teatar 55" */;
 			buildPhases = (
-				944DD70FE61C84944394DC86EC01EEAA /* Sources */,
-				9FC96ABA6A4A5191854CB29BE6356E43 /* Frameworks */,
-				17572AF235A2C5AC9B2D0940DAB7272B /* Headers */,
+				F3A2EA00D2EE94FE021FDA5219A6F9E3 /* Sources */,
+				2EA27220C0AA8FE6C6B9A1F219E5E59A /* Frameworks */,
+				9064D4F8138B97EB0D3123D2DC5B7693 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				68C2C78D459671BB62E0A6F8262C99C1 /* PBXTargetDependency */,
+				61A1C961141C88325D7562ED566176DC /* PBXTargetDependency */,
+				3FCC75D4B049C5345DB97EF1EC174A14 /* PBXTargetDependency */,
 			);
 			name = "Pods-Kamerni teatar 55";
 			productName = "Pods-Kamerni teatar 55";
-			productReference = 5EF4BDF3738563179E565ABABF0546E7 /* Pods_Kamerni_teatar_55.framework */;
+			productReference = 2187376105D8C2110CE7CB4483C37AAC /* Pods_Kamerni_teatar_55.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F670E78F55148AD44A4E1838FCE6AA2 /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0080A4E9567ABDAFE3067C5A39935906 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				78A4265D342650362042280DB58869E8 /* Sources */,
+				5E5CCB2CE9B73CDACE7DE5F9E35D709E /* Frameworks */,
+				69C1D854BD34EF9DE4F6BB1101DEB2CB /* Resources */,
+				2A36BF2D74FBB3A6FDFE18E9684A01E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = 7F3FB2E287E624D62C99A6211A985D37 /* YouTubePlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -361,15 +452,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0CB04BFF6ED93A08ECC0FAE74CED1FF7 /* Products */;
+			productRefGroup = BC871D6F71836BE31A7AE827851603F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
-				57E67F17F67E332F53B0BDB9F1CC4424 /* Pods-Kamerni teatar 55 */,
+				56212ABF9D2EC76739064B4EB06995A3 /* Pods-Kamerni teatar 55 */,
+				6F670E78F55148AD44A4E1838FCE6AA2 /* YouTubePlayer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C1D854BD34EF9DE4F6BB1101DEB2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D269B3A193E3870F813DDB3A0913A3 /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
@@ -381,26 +484,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		944DD70FE61C84944394DC86EC01EEAA /* Sources */ = {
+		78A4265D342650362042280DB58869E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3698D175680FFCB8AEFE369783FD1625 /* Pods-Kamerni teatar 55-dummy.m in Sources */,
+				511F9868AE262829C2AAC2422DFE01AD /* YouTubePlayer-dummy.m in Sources */,
+				7ED9F63DC9E20B6E41DDF1378C151D0C /* YouTubePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2EA00D2EE94FE021FDA5219A6F9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE299B85675E2DEE37C313EC5BBA6FC /* Pods-Kamerni teatar 55-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		68C2C78D459671BB62E0A6F8262C99C1 /* PBXTargetDependency */ = {
+		3FCC75D4B049C5345DB97EF1EC174A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 6F670E78F55148AD44A4E1838FCE6AA2 /* YouTubePlayer */;
+			targetProxy = B114FEB872C52619BC832EDEA2A208EA /* PBXContainerItemProxy */;
+		};
+		61A1C961141C88325D7562ED566176DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleToolboxForMac;
 			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
-			targetProxy = 8AA625BF6C927477E0B411DE98BEB252 /* PBXContainerItemProxy */;
+			targetProxy = 51CF2C114E136BE6C64FEA6356CE3575 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07FF11B33BF8B56925D4154F47A8F96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF8B01FB91ACC920C10DC6AEB30A052 /* Pods-Kamerni teatar 55.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kamerni teatar 55/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kamerni_teatar_55;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -449,9 +605,117 @@
 			};
 			name = Debug;
 		};
+		27D5B038C0D6FB92E517866CFFBCF5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28E609A40F77707FE9C3CC7FE65AAA5 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30C70A34398833D5A13C5DB7DC4D2F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28E609A40F77707FE9C3CC7FE65AAA5 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		454BAABAE09278C6A058C3D531F88AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC4B55E147EA9EDE0F0E01F55782C29 /* Pods-Kamerni teatar 55.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kamerni teatar 55/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kamerni_teatar_55;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = 71610F2A9FABCE1C8E63A80F59F55267 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -476,42 +740,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6201E124C14545F4D37525AFAEF7F348 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FF8B01FB91ACC920C10DC6AEB30A052 /* Pods-Kamerni teatar 55.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kamerni teatar 55/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kamerni_teatar_55;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -564,7 +792,7 @@
 		};
 		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = 71610F2A9FABCE1C8E63A80F59F55267 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -595,59 +823,32 @@
 			};
 			name = Debug;
 		};
-		CF0C8B5BADF521469F24079BA535609F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC4B55E147EA9EDE0F0E01F55782C29 /* Pods-Kamerni teatar 55.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Kamerni teatar 55/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Kamerni teatar 55/Pods-Kamerni teatar 55.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Kamerni_teatar_55;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0080A4E9567ABDAFE3067C5A39935906 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C70A34398833D5A13C5DB7DC4D2F56 /* Debug */,
+				27D5B038C0D6FB92E517866CFFBCF5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C378E4328E72A54C9484197ADC4CCC3 /* Build configuration list for PBXNativeTarget "Pods-Kamerni teatar 55" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454BAABAE09278C6A058C3D531F88AF5 /* Debug */,
+				07FF11B33BF8B56925D4154F47A8F96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
 				707B86CFB21B645E37109F39754D4051 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7CBED37B942627887E565DF9C90A393D /* Build configuration list for PBXNativeTarget "Pods-Kamerni teatar 55" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF0C8B5BADF521469F24079BA535609F /* Debug */,
-				6201E124C14545F4D37525AFAEF7F348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

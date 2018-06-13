@@ -9,4 +9,5 @@ target 'Kamerni teatar 55' do
 
   pod ’Firebase/Core’
   pod ‘Firebase/Database’
+  pod ‘YouTubePlayer’
 end
